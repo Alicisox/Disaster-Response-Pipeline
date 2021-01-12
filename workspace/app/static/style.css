@@ -1,0 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.list-group {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5px 0;
+}
