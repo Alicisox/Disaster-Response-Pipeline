@@ -8,7 +8,7 @@
 6. [Results](#Results)
 
 ## Project Motivation
-The disaster response messages are the crucial message that can be 
+The disaster response messages are the crucial message that need to classify. If the process can be done by automatic, it could save a lot of times of emergency work. Therefore, I want to solve this problem.
 
 ## Description
 Analyzing data for disaster response messages by classifying data into several categories.
@@ -56,5 +56,4 @@ Analyzing data for disaster response messages by classifying data into several c
 ```readme.md```: README file. <br/>
 
 ## Results
-The prediction of message categories 
-
+The prediction of disaster message categories.
