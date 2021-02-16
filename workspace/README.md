@@ -1,6 +1,4 @@
-# Disaster Response Pipeline Project
-
-# Finding the insight information on the rental business by a data-driven approach.
+# Disaster response analysis
 ### Table of Contents 
 1. [Project Motivation](#Project-Motivation)
 2. [Description](#Description)
