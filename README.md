@@ -8,7 +8,7 @@
 6. [Results](#Results)
 
 ## Project Motivation
-The disaster response messages are the crucial message that need to classify. If the process can be done by automatic, it could save a lot of times of emergency work. Therefore, I want to solve this problem.
+The disaster response messages are the crucial message that need to classify. If the process can be done by automatic, it could save a lot of times of an emergency work. Therefore, I want to solve this problem to reduce the workload of the emergency work.
 
 ## Description
 Analyzing data for disaster response messages by classifying data into several categories.
