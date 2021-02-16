@@ -41,18 +41,18 @@ Analyzing data for disaster response messages by classifying data into several c
 * seaborn
 
 ## File Descriptions
-```app/```: The application folder. <br/>
-```app/static/```: The CSS file. <br/>
-```app/templates/```: The html file. <br/>
-```app/run.py```: The file where the code are presented. <br/>
-```data/```: The folder that contains dataset. <br/>
-```data/DisasterResponse.db```: The Disaster-Response database. <br/>
-```data/disaster_categoroes.csv```: The disaster categories dataset. <br/>
-```data/disaster_messages.csv```: The disaster messages dataset. <br/>
-```data/process_data.csv```: The code of preprocessing data. <br/>
-```models/```: The folder that contains classifier model. <br/>
-```models/classifier.pkl```: The classifier model in pickle format. <br/>
-```models/train_classifier.py```: The code of training classifier. <br/>
+```workspace/app/```: The application folder. <br/>
+```workspace/app/static/```: The CSS file. <br/>
+```workspace/app/templates/```: The html file. <br/>
+```workspace/app/run.py```: The file where the code are presented. <br/>
+```workspace/data/```: The folder that contains dataset. <br/>
+```workspace/data/DisasterResponse.db```: The Disaster-Response database. <br/>
+```workspace/data/disaster_categoroes.csv```: The disaster categories dataset. <br/>
+```workspace/data/disaster_messages.csv```: The disaster messages dataset. <br/>
+```workspace/data/process_data.csv```: The code of preprocessing data. <br/>
+```workspace/models/```: The folder that contains classifier model. <br/>
+```workspace/models/classifier.pkl```: The classifier model in pickle format. <br/>
+```workspace/models/train_classifier.py```: The code of training classifier. <br/>
 ```readme.md```: README file. <br/>
 
 ## Results
