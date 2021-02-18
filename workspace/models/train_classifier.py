@@ -84,7 +84,6 @@ def tokenize(text):
         clean_tokens.append(clean_tok)
     return clean_tokens
 
-
 def build_model():
     """ 
     Perform the data pipeline. Then search for the best model parameters by using grid-search cross-validation
@@ -106,11 +105,11 @@ def build_model():
     ])
     
     parameters = {
-        'features__text_pipeline__vect__max_features': (None, 5000)
+        'features__text_pipeline__vect__max_features': (None, 5000),
         'clf__estimator__n_estimators': [100, 150]
     }
 
-    cv = GridSearchCV(pipeline, param_grid=parameters)
+    cv = GridSearchCV(pipeline, param_grid=parameters, verbose=2, n_jobs = -1)
     return cv 
 
 def evaluate_model(model, X_test, Y_test, category_names):
@@ -141,9 +140,8 @@ def save_model(model, model_filepath):
     model_filepath: string. The path that you want to save the model.
     
     """
-    # Save model to model filepath by using pickle
-    pickle.dump(model, open(model_filepath, 'wb'))
-
+    # Save the model to model filepath by using pickle
+    pickle.dump(model.best_estimator_, open(model_filepath, 'wb'))
 
 def main():
     """ 
@@ -168,7 +166,7 @@ def main():
         print('Saving model...\n    MODEL: {}'.format(model_filepath))
         save_model(model, model_filepath)
 
-        print('Trained model saved!')
+        print('Trained model saved!')     
 
     else:
         print('Please provide the filepath of the disaster messages database '\

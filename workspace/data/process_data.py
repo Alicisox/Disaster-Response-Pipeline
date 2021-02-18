@@ -58,13 +58,17 @@ def clean_data(df):
     categories.columns = category_colnames
     categories.head()   
     
-    ##Convert category values to just numbers 0 or 1
+    ## Convert category values to just numbers 0 or 1
     for column in categories:
         # set each value to be the last character of the string
         categories[column] = categories[column].apply(lambda categories: categories[-1])
 
         ## Convert column from string to numeric
         categories[column] = categories[column].apply(pd.to_numeric)
+    
+    # Convert 2 values of related column to 1 because the 2 values related to disaster likewise 1 values 
+    # Except that the 2 value contains an incomplete, wrong pattern or other languages than English response messages. 
+    categories['related'].replace(2, 1, inplace=True)
     
     ## Replace categories column in df with new category columns
     # Drop the original categories column from `df`
