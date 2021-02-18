@@ -11,7 +11,7 @@
 The disaster response messages are the crucial message that needs time to classify because they are sensitive. If the process can be done by automatic, it could save a lot of time for emergency work. Therefore, I want to solve this problem to reduce the workload of the emergency response officers.
 
 ## Description
-Analyzing and classified disaster response messages by natural language processing (NLP). Then shows the data visualization of result on the website by Flask.
+Analyzing and classified disaster response messages by natural language processing (NLP). Then shows the data visualization of results on the website by Flask framework.
 
 ## Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
