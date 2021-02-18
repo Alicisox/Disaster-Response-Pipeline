@@ -11,7 +11,7 @@
 The disaster response messages are the crucial message that needs to classify. If the process can be done by automatic, it could save a lot of time for emergency work. Therefore, I want to solve this problem to reduce the workload of the emergency work.
 
 ## Description
-Analyzing disaster response messages then classified the messages into several categories.
+Analyzing and classified disaster response messages by natural language processing (NLP).
 
 ## Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
