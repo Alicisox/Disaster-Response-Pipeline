@@ -13,7 +13,7 @@ The disaster response messages are the crucial message that needs to classify. I
 ## Description
 Analyzing disaster response messages then classified the messages into several categories.
 
-### Instructions:
+## Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
