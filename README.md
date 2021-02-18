@@ -8,7 +8,7 @@
 6. [Results](#Results)
 
 ## Project Motivation
-The disaster response messages are the crucial message that needs time to classify because they are sensitive. If the process can be done by automatic, it could save a lot of time for emergency work. Therefore, I want to solve this problem to reduce the workload of the emergency response officers.
+The disaster response messages are the crucial message that needs time to classify because they are sensitive. If the process can be done automatically, it could save a lot of time for emergency work. Therefore, I want to solve this problem to reduce the workload of the emergency response officers.
 
 ## Description
 Analyzing and classified disaster response messages by natural language processing (NLP). Then shows the data visualization of results on the website by Flask framework.
